@@ -9,10 +9,11 @@
 | Light yellow | Windows-specific traffic, including Server Message Blocks (SMB) and NetBIOS |
 | Dark yellow | Routing |
 | Dark gray | TCP SYN, FIN and ACK traffic |
+
 Skema pewarnaan default ditunjukkan pada gambar dibawah.
 ![](https://www.wireshark.org/docs/wsug_html_chunked/wsug_graphics/ws-coloring-rules-dialog.png)
 
-## Check IP Address | Default Gateway | Ping-it
+## Check IP Address
 ![](https://i.ibb.co/ccqScFP/Whats-App-Image-2022-09-03-at-20-41-54.jpg)
 Dapat kita ketahui bahwa ip pada laptop saya yakni 192.168.1.8 dan default gatewaynya 192.168.1.8 dengan menggunakan ping pada default gateway yang diberikan oleh router (enp4s0 / ethernet) sudah bisa melakukan analisa suatu packet dengan bantuan Wireshark.
 
