@@ -27,10 +27,9 @@ Dalam box frame terdapat:
  - [Protocols in frame: eth:ethertype:ip:tcp] Menunjukkan protokol-protokol apa saja yang ada di frame 1 yaitu ada Ethernet, Internet Protocol (IP), Internet Control Message Protocol (ICMP) & Data.
  - Kesimpulan: Lapisan ini menunjukkan apa saja yang ada dalam satu frame yaitu seperti protokol-protokol yang ada di lapisan ini Ethernet, Internet Protocol (IP), Transmission Control Protocol (TCP), Hypertext Transfer Protocol (HTTP), dan data-text-lines.
 
-##Detail Packet Analyzer Ethernet II
+## Detail Packet Analyzer Ethernet II
 ![](https://i.ibb.co/X812Yvk/Whats-App-Image-2022-09-03-at-21-09-11.jpg)
 Dalam box Ethernet II terdapat:
-
  - Source: zte_56:d1:4e (dc:df:d6:56:d1:4e), Destination: TP-Link_7e:35:5f (b4:b0:24:7e:35:5f) Menunjukkan MAC dari source yaitu zte_56:d1:4e  -  (dc:df:d6:56:d1:4e) dan MAC dari destination TP-Link_7e:35:5f (b4:b0:24:7e:35:5f).
  - Kesimpulan: Lapisan data link MAC dari source yaitu zte_56:d1:4e  -  (dc:df:d6:56:d1:4e) dan MAC dari destination TP-Link_7e:35:5f (b4:b0:24:7e:35:5f).
 
