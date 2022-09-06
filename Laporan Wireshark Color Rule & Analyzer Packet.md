@@ -9,10 +9,11 @@
 | Light yellow | Windows-specific traffic, including Server Message Blocks (SMB) and NetBIOS |
 | Dark yellow | Routing |
 | Dark gray | TCP SYN, FIN and ACK traffic |
+
 Skema pewarnaan default ditunjukkan pada gambar dibawah.
 ![](https://www.wireshark.org/docs/wsug_html_chunked/wsug_graphics/ws-coloring-rules-dialog.png)
 
-## Check IP Address | Default Gateway | Ping-it
+## Check IP Address
 ![](https://i.ibb.co/ccqScFP/Whats-App-Image-2022-09-03-at-20-41-54.jpg)
 Dapat kita ketahui bahwa ip pada laptop saya yakni 192.168.1.8 dan default gatewaynya 192.168.1.8 dengan menggunakan ping pada default gateway yang diberikan oleh router (enp4s0 / ethernet) sudah bisa melakukan analisa suatu packet dengan bantuan Wireshark.
 
@@ -26,10 +27,9 @@ Dalam box frame terdapat:
  - [Protocols in frame: eth:ethertype:ip:tcp] Menunjukkan protokol-protokol apa saja yang ada di frame 1 yaitu ada Ethernet, Internet Protocol (IP), Internet Control Message Protocol (ICMP) & Data.
  - Kesimpulan: Lapisan ini menunjukkan apa saja yang ada dalam satu frame yaitu seperti protokol-protokol yang ada di lapisan ini Ethernet, Internet Protocol (IP), Transmission Control Protocol (TCP), Hypertext Transfer Protocol (HTTP), dan data-text-lines.
 
-##Detail Packet Analyzer Ethernet II
+## Detail Packet Analyzer Ethernet II
 ![](https://i.ibb.co/X812Yvk/Whats-App-Image-2022-09-03-at-21-09-11.jpg)
 Dalam box Ethernet II terdapat:
-
  - Source: zte_56:d1:4e (dc:df:d6:56:d1:4e), Destination: TP-Link_7e:35:5f (b4:b0:24:7e:35:5f) Menunjukkan MAC dari source yaitu zte_56:d1:4e  -  (dc:df:d6:56:d1:4e) dan MAC dari destination TP-Link_7e:35:5f (b4:b0:24:7e:35:5f).
  - Kesimpulan: Lapisan data link MAC dari source yaitu zte_56:d1:4e  -  (dc:df:d6:56:d1:4e) dan MAC dari destination TP-Link_7e:35:5f (b4:b0:24:7e:35:5f).
 
