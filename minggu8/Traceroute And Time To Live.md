@@ -4,7 +4,7 @@ Traceroute adalah perintah yang menampilkan rute yang diambil paket untuk mencap
 
 Pembacaan traceroute biasanya mengembalikan tiga kolom waktu hop yang terpisah, karena setiap traceroute mengirimkan tiga informasi terpisah ke setiap komputer. Di bagian paling atas daftar, traceroute akan membatasi jumlah lompatan baris yang akan ditampilkan. Biasanya, jumlah maksimum adalah sekitar 30 hop.
 
-Pesan "Permintaan habis waktu" muncul ketika traceroute tidak dapat menjangkau komputer. Setiap kolom hop akan menampilkan tanda bintang, bukan milidetik.
+Pesan "Permintaan habis waktu" muncul ketika traceroute tidak dapat menjangkau komputer. Setiap kolom hop akan menampilkan bintang, bukan milidetik.
 
 ## Time To Live
 Time to Live atau hop adalah mekanisme untuk membatasi usia atau masa pakai data di komputer atau jaringan. Nilai TTL menentukan bahwa paket harus diteruskan ke router hop berikutnya atau dijatuhkan. Nilai TTL default adalah 64, maksimum 255 (8 bit), setiap paket melewati router (layer 3), nilainya akan dikurangi 1 sebelum keputusan penerusan, jika TTL, router tidak akan melewati lalu lintas ke rute berikutnya ia menerima 1
